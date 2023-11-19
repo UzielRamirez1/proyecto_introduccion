@@ -12,7 +12,7 @@ int main()
     int desicion;
 
     cout<< "D-Day"<< endl<<endl;
-    cout<< "introduce tu nombre de jugador"<<endl<<endl;
+    cout<< "introduce tu nombre de jugador"<<endl<<endl<<endl;
 
     getline(cin, nombreJugador);
 
@@ -127,7 +127,7 @@ int main()
         switch (desicion)
         {
             case 1: 
-        cout<<"Elijes un área aparentemente menos defendida para minimizar el riesgo inicial, esto puede ser lo mejor en un futuro (no afecta la moral)"<<endl<<endl;
+        cout<<"roporcionas atención médica rápidamente y te incorporas para seguir avanzando, no sabiamos que conocias sobre medicina aunque claro eres general por algo. (mantiene la moral)"<<endl<<endl;
                 break;
             case 2:
         cout<<"Llamas a un equipo médico para evacuar al compañero herido, sacrificando tiempo, pero ahora tus soldados saben que los tomas en cuenta. (sube la moral +25)"<<endl<<endl;
@@ -152,7 +152,7 @@ int main()
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"1.	Lanzar Granadas (-1 granada) "<<endl;
     cout<<"2.	Suprimir con Fuego (-10 balas) "<<endl;
-    cout<<"3.	Retirada Estratégica "<<endl<<endl;
+    cout<<"3.	Retirada Estratégica "<<endl;
     cout<<"4.     salir del juego"<<endl<<endl;
     do
     {
@@ -160,15 +160,16 @@ int main()
         switch (desicion)
         {
             case 1: 
-        cout<<"Elijes un área aparentemente menos defendida para minimizar el riesgo inicial, esto puede ser lo mejor en un futuro (no afecta la moral)"<<endl<<endl;
+        cout<<"Respondes con granadas para romper la emboscada y avanzar, al ver que reaccionaste a tiempo tus soldados confian en que tienen un lider nato. (sube la moral +15)"<<endl<<endl;
+                moral=moral+15;
                 break;
             case 2:
-        cout<<"Llamas a un equipo médico para evacuar al compañero herido, sacrificando tiempo, pero ahora tus soldados saben que los tomas en cuenta. (sube la moral +25)"<<endl<<endl;
-        moral=moral+25;
+        cout<<"Utilizas fuego sostenido para mantener a raya al enemigo mientras tu escuadrón se reorganiza, bajo tu autoridad segura saben que no puede salir nada mal ¿verdad? (sube la moral +10)"<<endl<<endl;
+                moral=moral+10;
                 break;   
             case 3:
-        cout<<"Decides dejar temporalmente al compañero herido bajo cobertura mientras avanzas para cumplir la misión, aunque sabes que no va a sobrevivir lo suficiente . (baja la moral -30)"<<endl<<endl;
-        moral=moral-30;
+        cout<<"Decides retirarte temporalmente para encontrar una posición más ventajosa antes de contraatacar, sin embargo un soldado salio herido durante la retirada, lo mejor era responder en ese momento afortunadamente no murio nadie. (baja la moral -15)"<<endl<<endl;
+        moral=moral-15;
                 break; 
             case 4:
         cout<<"elegiste salir del juego"<<endl<<endl;
