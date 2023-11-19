@@ -110,6 +110,7 @@ int main()
         break;
     }
     } while (desicion>4);
+//HEAD
 
                                  //tercera DESICION//
     cout<<"afortunada mente logaron evadir por el momento al resto de enemigos pero algo paso, piensa rapido... "<<endl<<endl;
@@ -146,6 +147,11 @@ int main()
         }
     }while(desicion>4);
                             //cuarta desicion//
+
+   
+
+
+//>>>>>>> 04b0d63dfe4cdefb2c1b31d4bc0f1750de845523
 
 
 
