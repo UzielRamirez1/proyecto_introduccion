@@ -119,6 +119,8 @@ int main()
     cout<<"1.	Atención Rápida "<<endl;
     cout<<"2.	Solicitar Evacuación Médica "<<endl;
     cout<<"3.	Dejar los Compañeros "<<endl;
+    cout<<"4.     salir del juego"<<endl<<endl;
+
     do
     {
         cin>>desicion;
@@ -146,7 +148,38 @@ int main()
         }
     }while(desicion>4);
                             //cuarta desicion//
-
+    cout<<"tras ese golpe duro contra tu peloton deciden seguir avanzando ya que al fin y al cabo estan en un campo de batalla, y no puedne quedarse mucho tiempo en lugar, pero estamos a punto de ver que puede que esa pudo ser una mejor decision. De forma repentina una emboscada los tiene en la mira, pero logran reaccionar a tiempo ¿que haces como respuesta?"<<endl<<endl;
+    cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
+    cout<<"1.	Lanzar Granadas (-1 granada) "<<endl;
+    cout<<"2.	Suprimir con Fuego (-10 balas) "<<endl;
+    cout<<"3.	Retirada Estratégica "<<endl<<endl;
+    cout<<"4.     salir del juego"<<endl<<endl;
+    do
+    {
+        cin>>desicion;
+        switch (desicion)
+        {
+            case 1: 
+        cout<<"Elijes un área aparentemente menos defendida para minimizar el riesgo inicial, esto puede ser lo mejor en un futuro (no afecta la moral)"<<endl<<endl;
+                break;
+            case 2:
+        cout<<"Llamas a un equipo médico para evacuar al compañero herido, sacrificando tiempo, pero ahora tus soldados saben que los tomas en cuenta. (sube la moral +25)"<<endl<<endl;
+        moral=moral+25;
+                break;   
+            case 3:
+        cout<<"Decides dejar temporalmente al compañero herido bajo cobertura mientras avanzas para cumplir la misión, aunque sabes que no va a sobrevivir lo suficiente . (baja la moral -30)"<<endl<<endl;
+        moral=moral-30;
+                break; 
+            case 4:
+        cout<<"elegiste salir del juego"<<endl<<endl;
+        return 0;
+                break;
+            default:
+        cout<<"respuesta no valida, eliga una respuestas valida"<<endl;
+        cout<<"que opcion eliges: "<<endl<<endl;
+                break;
+        }
+    }while(desicion>4);
 
 
 
