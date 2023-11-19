@@ -1,2 +1,3 @@
+primer proyecto de programacion y de repositorios, un juego de desiciones via terminal, solo texto.
 
-proyecto de introduccion a ingenieria en computacion junto con computadoras y programacion
+^_^
