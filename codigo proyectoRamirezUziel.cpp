@@ -53,14 +53,14 @@ int main()
         break;
     }
     } while (desicion>4);
-                            //segunda DESICION//
+                            //segunda DECISION//
     cout<<"despues de esa llegada con prisa ya estan en el campo de batlla, pero algo peligroso se acerca.. "<<endl;
     cout<<"Enfrentamiento con Nidos de Ametralladoras: los alemanes eran conocidos en esa epoca sobre todo por su inovacion en el campo de batalla, cosas como el gaz mostaza o las ametralladoras a las que estas a punto de enfrentarte los hacia simplemente aterradores. Si bien eso no los hace intocables, intimidan hasta al mas valiente, pero ustedes ya no tienen la opcion de huir asi que piensa como hacerles frente ahora "<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"1.	Asalto Frontal (-5 balas)"<<endl;
     cout<<"2.	Flanqueo Marítimo"<<endl;
     cout<<"3.	Distraer con Humo (-2 granada)"<<endl;
-    cout<<"4.     salir del juego"<<endl<<endl;
+    cout<<"4.      salir del juego"<<endl<<endl;
     do
     {
         cin>>desicion;
@@ -111,7 +111,7 @@ int main()
     }
     } while (desicion>4);
 
-                                 //tercera DESICION//
+                                 //tercera DECISION//
     cout<<"afortunada mente logaron evadir por el momento al resto de enemigos pero algo paso, piensa rapido... "<<endl<<endl;
     cout<<"Socorro a Compañero Herido en la Playa: parece ser que tomar una decisión apresurada no fue lo mejor para tu peloton y algunos compañeros fueron heridos por las ametralladoras, incluso te diste cuenta que algunos no lo lograron (baja la moral -20) pero aun asi hay compañeros que aun puedes salvar, pero date prisa no tienes mucho tiempo, la vida de esos hombre esta en juego"<<endl<<endl;
     moral=moral-20;
@@ -119,7 +119,7 @@ int main()
     cout<<"1.	Atención Rápida "<<endl;
     cout<<"2.	Solicitar Evacuación Médica "<<endl;
     cout<<"3.	Dejar los Compañeros "<<endl;
-    cout<<"4.     salir del juego"<<endl<<endl;
+    cout<<"4.      salir del juego"<<endl<<endl;
 
     do
     {
@@ -147,13 +147,13 @@ int main()
                 break;
         }
     }while(desicion>4);
-                            //cuarta desicion//
+                            //cuarta DECISION//
     cout<<"tras ese golpe duro contra tu peloton deciden seguir avanzando ya que al fin y al cabo estan en un campo de batalla, y no puedne quedarse mucho tiempo en lugar, pero estamos a punto de ver que puede que esa pudo ser una mejor decision. De forma repentina una emboscada los tiene en la mira, pero logran reaccionar a tiempo ¿que haces como respuesta?"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"1.	Lanzar Granadas (-1 granada) "<<endl;
     cout<<"2.	Suprimir con Fuego (-10 balas) "<<endl;
     cout<<"3.	Retirada Estratégica "<<endl;
-    cout<<"4.     salir del juego"<<endl<<endl;
+    cout<<"4.      salir del juego"<<endl<<endl;
     do
     {
         cin>>desicion;
@@ -182,13 +182,13 @@ int main()
                 break;
         }
     }while(desicion>4);
-                                //quinta DESICION//
+                                //quinta DECISION//
     cout<<"Asalto a una Batería de Cañones en la Costa: estan a punto de llegar al final y ya pasaron lo suficiente para saber que aun no termina asi que aun estan con la guardia alta, llegados a este punto no se pueden confiar, de pronto escuchan el esruendo de los cañones enemigos y los deja descubiertos tienen que actuar rapido:"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"1.	Asalto Frontal (-10 balas) "<<endl;
     cout<<"2.	Utilizar Cobertura Natural"<<endl;
     cout<<"3.	Pedir Apoyo Aéreo"<<endl;
-    cout<<"4.   salir"<<endl<<endl;
+    cout<<"4.      salir"<<endl<<endl;
     do
     {
         cin>>desicion;
@@ -218,13 +218,13 @@ int main()
         }
     }while(desicion>4);
 
-                                //sexta DESICION//
+                                //sexta DECISION//
     cout<<"Descubrimiento de Inteligencia Enemiga: despues de ese enfrentamiento en la costa logran campurar a un enemigo y lo obligan a llevarlos a uno de sus fuertes, en este mismo descubren inteligencia enemiga y los toman como rehenes, sin embargo no tienen muchi tiempo asi que solo pueden hacer una cosa ¿que sera?"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"1.	Descifrar Mensajes"<<endl;
     cout<<"2.	Interrogatorio Rápido"<<endl;
     cout<<"3.	Enviar a la Resistencia"<<endl;
-    cout<<"4.   salir"<<endl<<endl;
+    cout<<"4.      salir"<<endl<<endl;
     do
     {
         cin>>desicion;
@@ -252,13 +252,13 @@ int main()
                 break;
         }
     }while(desicion>4);
-                            //septima DESICION//
+                            //septima DECISION//
     cout<<"Elección de Ruta hacia el Punto de Control: despues de casi ser descubiertos en un fuerte enemigo tienen que huir rapidamente y aprovecharon para tomar una radio enemiga, con esta se comican con el cuartel general informando que se difiren al punto de encuntro con informacion crucial para el combate, pero no tienen un mapa asi que tienen que guiarse por sus instintos "<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"1.	Atajo Peligroso"<<endl;
     cout<<"2.	Ruta Convencional"<<endl;
     cout<<"3.	Incursión Nocturna"<<endl;
-    cout<<"4.   salir"<<endl;
+    cout<<"4.      salir"<<endl;
     do
     {
         cin>>desicion;
@@ -285,7 +285,7 @@ int main()
                 break;
         }
     }while(desicion>4);
-                            //fin de las DESICIONES//
+                            //fin de las DECISIONES//
     cout<<"Una vez llegaron al cuartel general entregan la informacion, tus hombre y tu fueron de gran utilidad ya que revelaron informacion crucial para tomar ventaja de los alemanes y por este hecho les permiten retirarse del campo de batalla por lo menos por ahora. "<<endl<<endl;
     cout<<"Estando en los barcos de regreso lo que quedo de tu peloton te agradecen por giarlos de tan buena manera y aunque hayan tenido bajas, en una guerra no salen todos vivos, prometes que iras personalemnte a dar el pesame a las familias de tus compañeros caidos. "<<endl<<endl;
                              //puntuaciones finales//
@@ -293,48 +293,31 @@ int main()
     cout<<"te quedasste un toral de: "<<granadas<<" granadas"<<endl<<endl;
     cout<<"en tu arma quedaron un total de: "<<balas<<" balas"<<endl<<endl;
 
-    if(moral< 0){
-        cout<<"tus soldados responden que no creen que sean lo mejor puesto que por tu culpa no queda casi nadie del peloton."<<endl<<endl;
-        cout<<"                 FIN             "<<endl<<endl;
-    }
-    if (0<= moral <= 20)
+    if (moral<=0)
     {
-        cout<<"aceptan tu propuesta pero no tienen ganas de hablar ahora mismo."<<endl<<endl;
-        cout<<"                 FIN             "<<endl<<endl;
+        cout<<"Tus soldados responden que no creen que sean lo mejor puesto que por tu culpa no queda casi nadie del peloton. "<<endl<<endl;
+        cout<<"                 FIN                 "<<endl<<endl;
+    }else{
+        if(moral<=20 && moral>1){
+            cout<<"Aceptan tu propuesta pero no tienen ganas de hablar ahora mismo. "<<endl<<endl;
+            cout<<"                 FIN                 "<<endl<<endl; 
+        }else{
+            if(moral<=50 && moral>21){
+                cout<<"Tus soldados agradecen por tu interes por esas familias, ademas dicen que hiciste lo necesario para salir de ese infierno. "<<endl<<endl;
+                cout<<"                 FIN                 "<<endl<<endl;
+            }else{
+                if(moral<=80 && moral>51){
+                    cout<<"Tus soldados estan muy agradecidos contigo por guiarlos tan bien puesto que casi todos salieron vivos ademas dicen que iran contigo a dar el pesame a esas familias. "<<endl<<endl;
+                    cout<<"                 FIN                 "<<endl<<endl;
+                }else{
+                    if(moral<200 && moral>81){
+                        cout<<"Tus soldados estan tan agradecidos contigo que no pueden expresarlo, solo lo notas en su cara, ya que tanto ellos como tu saben que tipo de compañero eres, uno que se procupa por su equipo, ademas de ser de confianza. "<<endl<<endl;
+                        cout<<"                 FIN                 "<<endl<<endl;
+                    }
+                }
+            }
+        }
     }
-    if (20<moral<=50)
-    {
-        cout<<"tus soldados agradecen por tu interes por esas familias, ademas dicen que hiciste lo necesario para salir de ese infierno."<<endl<<endl;
-        cout<<"                 FIN             "<<endl<<endl;
-    }
-    if (50<moral<=80)
-    {
-        cout<<"tus soldados estan muy agradecidos contigo por guiarlos tan bien puesto que casi todos salieron vivos ademas dicen que iran contigo a dar el pesame a esas familias."<<endl<<endl;
-        cout<<"                 FIN             "<<endl<<endl;
-    }
-    if (80<moral<=200)
-    {
-        cout<<"tus soldos no solo estan agradecidos, te dicen que te deben la vida, ya que por tu gran liderazgo salieron de ahi y no solo eso, si no que tambien sabne ahora que tipo de general tienen, uno con el que siempre pueden contar."<<endl<<endl;
-        cout<<"                 FIN             "<<endl<<endl;
-    }
     
-    
-    
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
