@@ -15,11 +15,11 @@ int main()
     cout<< "introduce tu nombre de jugador"<<endl<<endl<<endl;
 
     getline(cin, nombreJugador);
-
+    system("clear");
     cout<< nombreJugador <<", eres un general estadounidense que dirige su propio peloton en una de las batallas mas recordadas por la humanidad, el desembarco de normandia o tambien conocido como D-Day, tu mision, liberar el puert/playa de normandia de el ejercito nazi, llevas luchando contra los alemanes por lo menos 4 años, pero hoy podria ser el dia que marque la diferencia."<<endl<<endl;
 
     cout<< "Despiertas luego de una noche muy fria, pero nisiquiera fue noche y nisiquiera despertaste, solo abriste lo ojos luego cerrarlos un rato ya que nisiquiera has podido dormir estos ultimos dias, como sea vas en un barco que se dirige a la costa de normandia notas como tu peloton tienen una expresion algo desanimada, lo normal en esta situacion piensas, pero ahora eso ya no importa porque empiezas a escuchar los disparos a lo lejos… estas llegando, te preparas para sobrevivir en ese campo lleno de muerte y sufrimiento. Y se acerca la primera decisión, eres un general, las vidas de estos hombre dependen de que tan bueno seas tomando desiciones. Asi que preparate." <<endl<<endl;
-                             //primera DECISION//
+                                 //primera DECISION//
     cout<< "tu primera eleccion:"<<endl<<endl;
     cout<<" Elección de Desembarco: aquí es donde normalmente se pierden mas hombre, asi qu piensalo bien, un desembarque lento puede hacerte perder un tiempo muy valioso o quizas hasta mas, pero uno apresurado los puede hacer un blanco facil para el enemigo que no despega la vista de ustedes y solo espera el momento para abatirlos"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
@@ -52,6 +52,7 @@ int main()
         cout<<"que opcion eliges: "<<endl<<endl;
         break;
     }
+    system("clear");
     } while (desicion>4);
                             //segunda DECISION//
     cout<<"despues de esa llegada con prisa ya estan en el campo de batlla, pero algo peligroso se acerca.. "<<endl;
@@ -109,6 +110,7 @@ int main()
         cout<<"que opcion eliges: "<<endl<<endl;
         break;
     }
+    system("clear");
     } while (desicion>4);
 
                                  //tercera DECISION//
@@ -146,6 +148,7 @@ int main()
         cout<<"que opcion eliges: "<<endl<<endl;
                 break;
         }
+        system("clear");
     }while(desicion>4);
                             //cuarta DECISION//
     cout<<"tras ese golpe duro contra tu peloton deciden seguir avanzando ya que al fin y al cabo estan en un campo de batalla, y no puedne quedarse mucho tiempo en lugar, pero estamos a punto de ver que puede que esa pudo ser una mejor decision. De forma repentina una emboscada los tiene en la mira, pero logran reaccionar a tiempo ¿que haces como respuesta?"<<endl<<endl;
@@ -181,6 +184,7 @@ int main()
                 cout<<"que opcion eliges: "<<endl<<endl;
                 break;
         }
+        system("clear");
     }while(desicion>4);
                                 //quinta DECISION//
     cout<<"Asalto a una Batería de Cañones en la Costa: estan a punto de llegar al final y ya pasaron lo suficiente para saber que aun no termina asi que aun estan con la guardia alta, llegados a este punto no se pueden confiar, de pronto escuchan el esruendo de los cañones enemigos y los deja descubiertos tienen que actuar rapido:"<<endl<<endl;
@@ -216,6 +220,7 @@ int main()
                 cout<<"que opcion eliges: "<<endl<<endl;
                 break;
         }
+        system("clear");
     }while(desicion>4);
 
                                 //sexta DECISION//
@@ -251,6 +256,7 @@ int main()
                 cout<<"que opcion eliges: "<<endl<<endl;
                 break;
         }
+        system("clear");
     }while(desicion>4);
                             //septima DECISION//
     cout<<"Elección de Ruta hacia el Punto de Control: despues de casi ser descubiertos en un fuerte enemigo tienen que huir rapidamente y aprovecharon para tomar una radio enemiga, con esta se comican con el cuartel general informando que se difiren al punto de encuntro con informacion crucial para el combate, pero no tienen un mapa asi que tienen que guiarse por sus instintos "<<endl<<endl;
@@ -284,6 +290,7 @@ int main()
                 cout<<"que opcion eliges: "<<endl<<endl;
                 break;
         }
+        system("clear");
     }while(desicion>4);
                             //fin de las DECISIONES//
     cout<<"Una vez llegaron al cuartel general entregan la informacion, tus hombre y tu fueron de gran utilidad ya que revelaron informacion crucial para tomar ventaja de los alemanes y por este hecho les permiten retirarse del campo de batalla por lo menos por ahora. "<<endl<<endl;
