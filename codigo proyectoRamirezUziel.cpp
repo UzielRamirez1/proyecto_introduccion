@@ -127,7 +127,7 @@ int main()
         switch (desicion)
         {
             case 1: 
-        cout<<"roporcionas atención médica rápidamente y te incorporas para seguir avanzando, no sabiamos que conocias sobre medicina aunque claro eres general por algo. (mantiene la moral)"<<endl<<endl;
+        cout<<"Proporcionas atención médica rápidamente y te incorporas para seguir avanzando, no sabiamos que conocias sobre medicina aunque claro eres general por algo. (mantiene la moral)"<<endl<<endl;
                 break;
             case 2:
         cout<<"Llamas a un equipo médico para evacuar al compañero herido, sacrificando tiempo, pero ahora tus soldados saben que los tomas en cuenta. (sube la moral +25)"<<endl<<endl;
@@ -181,6 +181,44 @@ int main()
                 break;
         }
     }while(desicion>4);
+                                //quinta DESICION//
+    cout<<"Asalto a una Batería de Cañones en la Costa: estan a punto de llegar al final y ya pasaron lo suficiente para saber que aun no termina asi que aun estan con la guardia alta, llegados a este punto no se pueden confiar, de pronto escuchan el esruendo de los cañones enemigos y los deja descubiertos tienen que actuar rapido:"<<endl<<endl;
+    cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
+    cout<<"1.	Asalto Frontal (-10 balas) "<<endl;
+    cout<<"2.	Utilizar Cobertura Natural"<<endl;
+    cout<<"3.	Pedir Apoyo Aéreo"<<endl;
+    do
+    {
+        cin>>desicion;
+        switch (desicion)
+        {
+            case 1: 
+        cout<<"ecides asaltar directamente la batería, arriesgándote a un enfrentamiento intenso, tus soldados te ven como alguien impulsivo pero los convence para seguirte. (sube la moral +5)"<<endl<<endl;
+                moral=moral+5;
+                balas=balas-10;
+                break;
+            case 2:
+        cout<<"uscas refugio en rocas y terreno natural para avanzar sin ser detectado asi pueden pensar en un plan efectivo para acabar con el enemigo, ademas que los inspiraste a seguir vivos. (sube la moral +10)"<<endl<<endl;
+                moral=moral+10;
+                break;   
+            case 3:
+        cout<<"Utilizas una radio portátil para solicitar un bombardeo aéreo sobre la batería con esto creen que tiene asegurada la victoria. (sube la moral +15)"<<endl<<endl;
+        moral=moral+15;
+                break; 
+            case 4:
+        cout<<"elegiste salir del juego"<<endl<<endl;
+        return 0;
+                break;
+            default:
+        cout<<"respuesta no valida, eliga una respuestas valida"<<endl;
+        cout<<"que opcion eliges: "<<endl<<endl;
+                break;
+        }
+    }while(desicion>4);
+
+                                //sexta DESICION//
+    
+
 
 
 
