@@ -288,11 +288,6 @@ int main()
                             //fin de las DECISIONES//
     cout<<"Una vez llegaron al cuartel general entregan la informacion, tus hombre y tu fueron de gran utilidad ya que revelaron informacion crucial para tomar ventaja de los alemanes y por este hecho les permiten retirarse del campo de batalla por lo menos por ahora. "<<endl<<endl;
     cout<<"Estando en los barcos de regreso lo que quedo de tu peloton te agradecen por giarlos de tan buena manera y aunque hayan tenido bajas, en una guerra no salen todos vivos, prometes que iras personalemnte a dar el pesame a las familias de tus compañeros caidos. "<<endl<<endl;
-                             //puntuaciones finales//
-    cout<<"conseguiste un total de: "<<moral<<" moral"<<endl<<endl;;
-    cout<<"te quedasste un toral de: "<<granadas<<" granadas"<<endl<<endl;
-    cout<<"en tu arma quedaron un total de: "<<balas<<" balas"<<endl<<endl;
-
     if (moral<=0)
     {
         cout<<"Tus soldados responden que no creen que sean lo mejor puesto que por tu culpa no queda casi nadie del peloton. "<<endl<<endl;
@@ -318,6 +313,10 @@ int main()
             }
         }
     }
+                                 //puntuaciones finales//
+    cout<<"conseguiste un total de: "<<moral<<" moral"<<endl<<endl;;
+    cout<<"te quedasste un toral de: "<<granadas<<" granadas"<<endl<<endl;
+    cout<<"en tu arma quedaron un total de: "<<balas<<" balas"<<endl<<endl;
     
     return 0;
 }
