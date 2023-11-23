@@ -18,9 +18,11 @@ int main()
     int num3 = -1;
     int resultado;
     int i;
+    int salida=1;
     cout<< "introduce tu nombre de jugador"<<endl<<endl;
     getline(cin, nombreJugador);
     cout<<endl<<endl;
+    do{
     cout<<"pulsa el numero correspondiente a la opcion que quieres elegir:"<<endl<<endl;
     cout<<"1.   iniciar historia"<<endl;
     cout<<"2.   creditos"<<endl;
@@ -353,6 +355,8 @@ int main()
     cout<<"conseguiste un total de: "<<moral<<" moral"<<endl<<endl;;
     cout<<"te quedasste un toral de: "<<granadas<<" granadas"<<endl<<endl;
     cout<<"en tu arma quedaron un total de: "<<balas<<" balas"<<endl<<endl;
+    cout<<"¿Desea regresar al menu? pulse 1 para si, cualquiero otro numero para no"<<endl<<endl;
+    cin>>salida;
             break;
         case 2:
             cout<<"todos los creditos estan reservados a Uziel Ramirez Bravo contacto: uzielramirezbr@gmail.com"<<endl<<endl;
@@ -407,5 +411,6 @@ int main()
             break;
         }
     } while (decision>4);
+    }while(salida<=1);
     return 0;
 }
