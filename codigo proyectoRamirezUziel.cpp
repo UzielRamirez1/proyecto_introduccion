@@ -18,7 +18,7 @@ int main()
     int num3 = -1;
     int resultado;
     int i;
-    cout<< "introduce tu nombre de jugador"<<endl<<endl<<endl;
+    cout<< "introduce tu nombre de jugador"<<endl<<endl;
     getline(cin, nombreJugador);
     cout<<endl<<endl;
     cout<<"pulsa el numero correspondiente a la opcion que quieres elegir:"<<endl<<endl;
@@ -35,15 +35,14 @@ int main()
         {
         case 1:
             cout<< "D-Day"<< endl<<endl;
-            cout<< nombreJugador <<", eres un general estadounidense que dirige su propio peloton en una de las batallas mas recordadas por la humanidad, el desembarco de normandia o tambien conocido como D-Day, tu mision, liberar el puert/playa de normandia de el ejercito nazi, llevas luchando contra los alemanes por lo menos 4 años, pero hoy podria ser el dia que marque la diferencia."<<endl<<endl;
+            cout<< nombreJugador <<", eres un general estadounidense que dirige su propio peloton en una de las batallas mas recordadas por la humanidad, el desembarco de normandia o tambien conocido como D-Day, tu mision, liberar el puerto/playa de normandia de el ejercito nazi, llevas luchando contra los alemanes por lo menos 4 años, pero hoy podria ser el dia que marque la diferencia."<<endl<<endl;
 
-    cout<< "Despiertas luego de una noche muy fria, pero nisiquiera fue noche y tampoco despertaste, solo abriste lo ojos luego cerrarlos un rato ya que no has podido dormir estos ultimos dias, como sea vas en un barco que se dirige a la costa de normandia notas como tu peloton tienen una expresion algo desanimada, lo normal en esta situacion piensas, pero ahora eso ya no importa porque empiezas a escuchar los disparos a lo lejos… estas llegando, te preparas para sobrevivir en ese campo lleno de muerte y sufrimiento. Y se acerca la primera decisión, eres un general, las vidas de estos hombre dependen de que tan bueno seas tomando desiciones. Asi que preparate." <<endl<<endl;
+    cout<< "Despiertas luego de una noche muy fria, pero nisiquiera fue noche y tampoco despertaste, solo abriste lo ojos luego cerrarlos un rato ya que no has podido dormir estos ultimos dias, como sea, estas en un barco que en camino a la costa de normandia notas como tu peloton tienen una expresion algo desanimada, lo normal en esta situacion piensas, pero ahora eso ya no importa porque empiezas a escuchar los disparos a lo lejos… estas llegando, te preparas para sobrevivir en ese campo lleno de muerte y sufrimiento. Y se acerca la primera decisión, eres un general, las vidas de estos hombre dependen de que tan bueno seas tomando desiciones. Asi que preparate." <<endl<<endl;
                                  //primera DECISION//
     cout<< "tu primera eleccion:"<<endl<<endl;
-    cout<<" Elección de Desembarco: aquí es donde normalmente se pierden mas hombres, asi que piensalo bien, un desembarque lento puede hacerte perder un tiempo muy valioso o quizas hasta mas, pero uno apresurado los puede hacer un blanco facil para el enemigo que no despega la vista de ustedes y solo espera el momento para abatirlos"<<endl<<endl;
+    cout<<"Elección de Desembarco: aquí es donde normalmente se pierden mas hombres, asi que piensalo bien, un desembarque lento puede hacerte perder un tiempo muy valioso o quizas hasta mas, pero uno apresurado los puede hacer un blanco facil para el enemigo que no despega la vista de ustedes y solo espera el momento para abatirlos"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Lugar de Desembarco Seguro"<<endl;
     cout<<"2.	Desembarco Directo"<<endl;
     cout<<"3.	Cobertura Naval"<<endl;
@@ -79,8 +78,7 @@ int main()
     cout<<"despues de esa llegada con prisa ya estan en el campo de batlla, pero algo peligroso se acerca.. "<<endl;
     cout<<"Enfrentamiento con Nidos de Ametralladoras:"<< nombreJugador<< "los alemanes eran conocidos en esa epoca sobre todo por su inovacion en el campo de batalla, cosas como el gaz mostaza o las ametralladoras a las que estas a punto de enfrentarte los hacia simplemente aterradores. Si bien eso no los hace intocables, intimidan hasta al mas valiente, pero ustedes ya no tienen la opcion de huir asi que piensa como hacerles frente ahora "<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Asalto Frontal (-5 balas)"<<endl;
     cout<<"2.	Flanqueo Marítimo (-5 balas)"<<endl;
     cout<<"3.	Distraer con Humo (-2 granada)"<<endl;
@@ -143,8 +141,7 @@ int main()
     cout<<nombreJugador<<"Ayuda a Compañero Herido en la Playa: parece ser que tomar una decisión apresurada no fue lo mejor para tu peloton y algunos compañeros fueron heridos por las ametralladoras, incluso te diste cuenta que algunos no lo lograron (baja la moral -20) pero aun asi hay compañeros que aun puedes salvar, pero date prisa no tienes mucho tiempo, la vida de esos hombre esta en juego"<<endl<<endl;
     moral=moral-20;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Atención Rápida "<<endl;
     cout<<"2.	Solicitar Evacuación Médica "<<endl;
     cout<<"3.	Dejar los Compañeros "<<endl;
@@ -180,8 +177,7 @@ int main()
                             //cuarta DECISION//
     cout<<"tras ese golpe duro contra tu peloton deciden seguir avanzando ya que al fin y al cabo estan en un campo de batalla, y no pueden quedarse mucho tiempo en lugar, pero estamos a punto de ver que puede que esa pudo ser una mejor decision. De forma repentina una emboscada los tiene en la mira, pero logran reaccionar a tiempo ¿que haces como respuesta?"<<endl<<endl;
     cout<<"tienes 3 opciones, "<<nombreJugador<<" ¿cual eliges?, recuerda que con cada decision ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Lanzar Granadas (-1 granada) "<<endl;
     cout<<"2.	Suprimir con Fuego (-10 balas) "<<endl;
     cout<<"3.	Retirada Estratégica "<<endl;
@@ -219,8 +215,7 @@ int main()
                                 //quinta DECISION//
     cout<<"Asalto a una Batería de Cañones en la Costa: estan a punto de llegar al final y ya pasaron lo suficiente para saber que aun no termina asi que aun estan con la guardia alta, llegados a este punto no se pueden confiar, de pronto escuchan el esruendo de los cañones enemigos y los deja descubiertos tienen que actuar rapido:"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Asalto Frontal (-10 balas) "<<endl;
     cout<<"2.	Utilizar Cobertura Natural"<<endl;
     cout<<"3.	Pedir Apoyo Aéreo"<<endl;
@@ -257,8 +252,7 @@ int main()
                                 //sexta DECISION//
     cout<<"Descubrimiento de Inteligencia Enemiga: despues de ese enfrentamiento en la costa logran campurar a un enemigo y lo obligan a llevarlos a uno de sus fuertes, en este mismo descubren inteligencia enemiga y los toman como rehenes, sin embargo no tienen mucho tiempo asi que solo pueden hacer una cosa ¿que sera?"<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Descifrar Mensajes"<<endl;
     cout<<"2.	Interrogatorio Rápido"<<endl;
     cout<<"3.	Enviar a la Resistencia"<<endl;
@@ -294,8 +288,7 @@ int main()
                             //septima DECISION//
     cout<<"Elección de Ruta hacia el Punto de Control: despues de casi ser descubiertos en un fuerte enemigo tienen que huir rapidamente y aprovecharon para tomar una radio enemiga, con esta se comunican con el cuartel general informando que se difiren al punto de encuntro con informacion crucial para el combate, pero no tienen un mapa asi que tienen que guiarse por sus instintos "<<endl<<endl;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
-    cout<<"tienes: "<<balas<<" balas" <<endl;
-    cout<<"tienes: "<<granadas<< "granadas"<<endl<<endl;
+    cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
     cout<<"1.	Atajo Peligroso"<<endl;
     cout<<"2.	Ruta Convencional"<<endl;
     cout<<"3.	Incursión Nocturna (-5 balas)"<<endl;
