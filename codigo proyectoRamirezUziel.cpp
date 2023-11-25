@@ -19,11 +19,11 @@ int main()
     int resultado;
     int i;
     int salida=1;
-    cout<< "introduce tu nombre de jugador"<<endl<<endl;
+    cout<< "introduce tu nombre de jugador: "<<endl<<endl;
     getline(cin, nombreJugador);
     cout<<endl<<endl;
     do{
-    cout<<"pulsa el numero correspondiente a la opcion que quieres elegir:"<<endl<<endl;
+    cout<<"pulsa el numero correspondiente a la opcion que quieres elegir: "<<endl<<endl;
     cout<<"1.   iniciar historia"<<endl;
     cout<<"2.   creditos"<<endl;
     cout<<"3.   cargar partida"<<endl;
