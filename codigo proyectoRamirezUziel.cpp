@@ -353,7 +353,7 @@ int main()
     }
                                  //puntuaciones finales//
     cout<<"conseguiste un total de: "<<moral<<" moral"<<endl<<endl;;
-    cout<<"te quedasste un toral de: "<<granadas<<" granadas"<<endl<<endl;
+    cout<<"te quedaste un toral de: "<<granadas<<" granadas"<<endl<<endl;
     cout<<"en tu arma quedaron un total de: "<<balas<<" balas"<<endl<<endl;
     cout<<"¿Desea regresar al menu? pulse 1 para si, cualquiero otro numero para no"<<endl<<endl;
     cin>>salida;
