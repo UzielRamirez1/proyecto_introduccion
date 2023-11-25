@@ -144,7 +144,7 @@ int main()
     moral=moral-20;
     cout<<"tienes 3 opciones, cual eliges, recuerda que con cada desicion ganas o pierdes moral, actualmente tienes: "<< moral <<" de moral, elige bien soldado"<<endl;
     cout<<"tienes: "<<balas<<" balas y "<<granadas<<" granadas" <<endl<<endl;
-    cout<<"1.	Atención Rápida "<<endl;
+    cout<<"1.	Atencion Rápida "<<endl;
     cout<<"2.	Solicitar Evacuación Médica "<<endl;
     cout<<"3.	Dejar los Compañeros "<<endl;
     cout<<"4.      salir del juego"<<endl<<endl;
