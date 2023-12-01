@@ -363,7 +363,7 @@ int main()
             cout<<"instagram: https://www.instagram.com/uziel_rami/?hl=es sigueme para mas proyectos."<<endl<<endl;
             break;
         case 3:
-            cout<<"todavia no se como guardar partida, menos cargarla perdon. "<<endl<<endl;
+            cout<<"todavia no se como guardar partida, menos cargarla perdon. :( "<<endl<<endl;
             break;
         case 4:
             cout<<"elige 1 numero alazar"<<endl;
